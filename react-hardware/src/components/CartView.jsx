@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Product from './Product'
+import ProductList  from './ProductList'
 
 class CartView extends Component {
   render () {
@@ -9,10 +9,10 @@ class CartView extends Component {
             <h1>Cart</h1>
         <h2>Products</h2>
         <div>
-          { this.props.productList.map((product, index) => {
+    
             return (
-              <div key={index}>
-                <Product
+             
+                <ProductList
                   productName={product.productName}
                   price={product.price}
                   description={product.description}
@@ -21,12 +21,12 @@ class CartView extends Component {
                 <button></button>
               </div>
             )
-          }) }
+           }
         </div>
-      </div>
       
-    )
-  }
+      
+        )
+  
+        }
 }
-
 export default CartView
