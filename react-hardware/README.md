@@ -1,3 +1,5 @@
+I used The ATL wdi12 GitHub repo solution for assistance, including the instructors notes.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
